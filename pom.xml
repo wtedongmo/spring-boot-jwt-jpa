@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>twb-jwt</groupId>
+	<groupId>com.twb-jwt</groupId>
 	<artifactId>jwt-auth-service-jpa</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
@@ -27,7 +27,7 @@
 	    <repository>
 	      <id>github</id>
 	      <name>GitHub OWNER Apache Maven Packages</name>
-	      <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+	      <url>https://maven.pkg.github.com/wtedongmo/spring-boot-jwt-jpa</url>
 	    </repository>
 	  </distributionManagement>
 
