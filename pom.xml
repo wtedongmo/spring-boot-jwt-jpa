@@ -22,6 +22,14 @@
 		<version>2.2.1.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
+	<distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub OWNER Apache Maven Packages</name>
+	      <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+	    </repository>
+	  </distributionManagement>
 
 	<dependencies>
 		<dependency>
@@ -56,11 +64,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+		<dependency>
+		    <groupId>com.h2database</groupId>
+		    <artifactId>h2</artifactId>
+		    <scope>runtime</scope>
+		</dependency>
 
 		<dependency>
 			<!-- Automated JSON API documentation for API's built with Spring -->
